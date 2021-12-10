@@ -1,5 +1,5 @@
 body {
-    font-family: georgia,times, serif;
+    font-family: 'Montserrat', sans-serif;
     color: #333;
     font-size: 1.2rem;
     line-height: 1.6em;
@@ -85,10 +85,13 @@ label{
 
 /* CONTENIDO */
 .main {
-    padding-top: 10rem; 
+    padding-top: 2rem; 
     width: 100%;
 }
+.unicuevo{
+    font-size: 40px;
 
+}
 .container {
     width: 85%; 
     margin: 0 auto;
@@ -99,12 +102,14 @@ label{
     align-items: center;
     justify-content: center; 
     flex-direction: column;
+    padding-top: 4rem;
 }
 .circuito-proyecto{
     display: flex;
     align-items: center;
     justify-content: center; 
     flex-direction: column;
+    
 }
 
 
