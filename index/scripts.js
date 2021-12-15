@@ -34,7 +34,7 @@ function sendMail() {
             -nombre: ${document.getElementById('nombre').value}<br>
             -correo: ${document.getElementById('correo').value}<br>
             -telefono: ${document.getElementById('telefono').value}<br>
-            -textarea: ${document.getElementById('textarea').value}<br>
+            -message: ${document.getElementById('textarea').value}<br>
             `,
         })
     }).then(res => res.text())
