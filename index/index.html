@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
         <link href="style.css" rel="stylesheet">
 
     </head>
@@ -17,17 +18,17 @@
      <header class="header"> 
         <div class="container logo-nav-container">
         
-            <a href="#" class="logo">CO2Sense</a>
+            <a href="./" class="logo">CO2Sense</a>
            
-            <span class="menu-icon">Ver menú</span>
+            <span class="menu-icon"><i class="fas fa-bars fa btn"></i></span>
            
             <nav class="navigation">
                 <ul>
                     <li><a href="#Home">Inicio</a></li>
-                    <li><a href="">Producto</a></li>
-                    <li><a href="#Circuito">Circuito</a></li>
-                    <li><a href="#">nunca</a></li>
-                    <li><a href="#Acerca">Acerca</a></li>
+                    <li><a href="#Proyecto">Proyecto</a></li>
+                    <li><a href="#Institucion">Institucion</a></li>
+                    <li><a href="#Integrantes">Integrantes</a></li>
+                    <li><a href="#Acerca">Contacto</a></li>
                 </ul>
             </nav>
 
@@ -55,7 +56,7 @@
         <!-- DESCRIPCION PROYECTO -->
         <div class="container">
             <div class="info-proyecto">
-                <h1>Proyecto</h1>
+                <h1 id="Proyecto">Proyecto</h1>
                 <p>
                     Este dispositivo se encarga de medir el CO2 que hay en el ambiente. Se puede utilizar en aulas, oficinas, fábricas, y en cualquier espacio en el que sea necesario medir el CO2 ambiental para prevenir la propagación del COVID-19 y otras enfermedades.
                 </p>
@@ -72,7 +73,7 @@
         
           <!-- DIAGRAMA EN BLOQUE  -->
             <div class="diagrama-proyecto">
-                <h1>DIAGRAMA EN BLOQUE</h1>
+                <h1>Diagrama En Bloque</h1>
                 <img src="../img/DIAGRAMA.png" class="img-fluid" width="700px" height="400" alt="diagrama">
 
             </div>
@@ -83,61 +84,94 @@
             <div class="componentes-proyecto">
                 
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/nosotros-img.jpg" class="card-img-top" alt="...">
+                    <img src="../img/Arduinonano.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Arduino Nano</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text">Microcontrolador que se ocupa de las acciones</p>
+                      <p class="card-text">x1</p>
+                      <a href="https://www.austral3d.com.ar/productos/item/1018/Arduino-Nano-V30-Atmega328p-Ch340g-16m-5v-C-pines-solados" class="btn btn-primary">Mas Informacion</a>
                     </div>
                   </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/nosotros-img.jpg" class="card-img-top" alt="...">
+                    <img src="../img/Mq135.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">MQ-135 Sensor</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text pt">Sensor de gas que se ocupa de medir el CO2</p>
+                      <p class="card-text">x1</p>
+                      <a href="https://www.austral3d.com.ar/productos/item/1259/Sensor-De-Gas-Mq135-Nh3-Nox-Co2-Alcohol-Benzeno-Humo" class="btn btn-primary">Mas Informacion</a>
                     </div>
                 </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/nosotros-img.jpg" class="card-img-top" alt="...">
+                    <img src="../img/Buzzer.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Buzzer</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text">altavoz, se usa como metodo de alarma sonora.</p>
+                      <p class="card-text">x1</p>
+                      <a href="https://www.austral3d.com.ar/productos/item/1130/Modulo-Buzzer-Activo-3v3-5v-Zumbador-Arduino" class="btn btn-primary">Mas Informacion</a>
                     </div>
                   </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/nosotros-img.jpg" class="card-img-top" alt="...">
+                    <img src="../img/Leds.jpg" class="card-img-top fotos" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Leds</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text">Luces LED se usan para mostrar los niveles representado en colores</p>
+                      <p class="card-text">x3</p>
+                      <a href="https://www.austral3d.com.ar/productos/item/1295/Led-5mm-Rojo-Alta-Luminosidad-Difuso" class="btn btn-primary">Mas Informacion</a>
                     </div>
                   </div>
                 <div class="card" style="width: 18rem;">
-                    <img src="../img/nosotros-img.jpg" class="card-img-top" alt="...">
+                    <img src="../img/DisplayLCD.jpg" class="card-img-top " alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Display LCD</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <p class="card-text">Display 16x2 se utiliza para mostrar los niveles de CO2.</p>
+                      <p class="card-text">x1</p>
+                      <a href=" https://www.openhacks.com/page/productos/id/54/title/Display-LCD-1602-Azul---Blanco#lightbox[%27galeria%27]/2/" class="btn btn-primary">Mas Informacion</a>
                     </div>
                 </div>
+            </div>
+
+            <h1 id="Institucion">Institución</h1>
+            <div class="institucion">            
+               <div class="texto-institucion">
+                 
+                <h3>Colegio Salesiano San Jose</h3>
+                <p>La Casa Salesiana San José ofrece espacios formativos destinados a la educación de los jóvenes en los niveles inicial, primario, secundario técnico y terciario. Además complementan la propuesta cursos de formación laboral, actividades pastorales, y de extensión a la comunidad.</p>
+               <div>
+                 <h5>Mas Información</h5>
+               <div class="links-institucion">
+                <ul>
+                  <li>
+                    <a href="https://sanjoserosario.com.ar/escuela/secundaria/">Escuela Secundaria </a>
+                  </li>
+                  <li>
+                    <a href="https://sanjoserosario.com.ar/escuela/primaria/">Escuela Primaria </a>
+                  </li>
+                  <li>
+                    <a href="https://sanjoserosario.com.ar/escuela/nivel-superior/">Nivel Superior</a>
+                  </li>
+                </ul>
+              </div>
+              </div>
+               </div>
+                 <div class="foto-institucion">
+                  <img  style="border-radius: 10px;" src="../img/asd.jpg" class="img-fluid" width="2500px" alt="">
+                </div>   
             </div>
                
 
             
             <!--     INTEGRANTES    -->
-                <h1 class="titulo-integrantes">Integrantes</h1> 
+                <h1 class="titulo-integrantes" id="Integrantes">Integrantes</h1> 
             <div class="participantes-proyecto">     
                 <div class="members-card-members ">
-                    <img class="card-members-image" width="300px" src="../img/nosotros-img.jpg" alt=""> <!-- cambiar clase de nombre -->
-                    <h5>Nombre Apellido</h5>
+                    <img class="card-members-image" width="300px" src="../img/FotoFurro.jpeg" alt=""> <!-- cambiar clase de nombre -->
+                    <h5>Lucas Turiani</h5>
                     <h6>Diseño</h6>
                 </div>
 
                 <div class="members__card-members">
-                    <img class="card-members__image" width="300px" src="../img/nosotros-img.jpg" alt="">
-                    <h5>Nombre Apellido</h5>
+                    <img class="card-members__image" width="300px" height="300px" src="../img/FotoMarto.jpeg" alt="">
+                    <h5>Joaquin Martinez</h5>
                     <h6>Desarollo</h6>
                 </div>
         
@@ -145,16 +179,17 @@
         </div>
         
         <!-- CONTACTO -->
-        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <section class="d-flex justify-content-center justify-content-lg-between pt-5 p-4 pb-5 border-bottom">
             <div class="container text-center text-md-start mt-5 formulario">
               <form id="form" method="post">
                 <div class="members__title text-center mb-5">
-                  <h3 id="infoescuela__titulo">Contacto</h3>
+                  <h3 id="Acerca">Contacto</h3>
                 </div>
                 <div class="form-floating mb-3">
                   <input name="nombre" type="text" class="form-control" id="nombre" placeholder="Nombre" required>
-                  <label for="nombre">Nombre</label>
+                  <label for="nombre">Nombre y Apellido</label>
                 </div>
+
                 <div class="form-floating mb-3">
                   <input name="correo" type="email" class="form-control" id="correo" placeholder="name@example.com" required>
                   <label for="correo">Correo Electronico</label>
@@ -170,10 +205,9 @@
                 </div>
     
     
-                <button onclick="javascript:sendMail()" type = "button" class = "principal__button">
+                <button onclick="javascript:sendMail()" type = "button" class = "btn btn-secondary">
                     <span class = "principal__button--text">Enviar</span>
-                    <span class = "principal__button--icon">
-                        <i class="fas fa-check"></i>
+
                 </span>
               </form>
           </section>
@@ -181,21 +215,19 @@
       </main>
 
       <!-- FOOTER -->
-        <div class="footer-links" id="Acerca">
+        <div class="footer-links" >
             <div class="footer-container">
                 <ul>
                     <li>
                              <h3>Telefonos</h3>
                     </li>
                     <li>
-                        <a href="">34122222</a>
+                        <p>Lucas 34122222</p>
                     </li>
                     <li>
-                        <a href="">34133333</a>
+                       <p>Joaquin 34133333</p>
                     </li>
-                    <li>
-                        <a href=""></a>
-                    </li>
+                
                    
                 </ul>
                 <ul>

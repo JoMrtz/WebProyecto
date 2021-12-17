@@ -15,7 +15,11 @@ h1 {
     padding-top: 3rem;
 }
 h6 {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
+
+}
+h5{
+    padding-top: 1.5rem;
 }
 p {
     margin-bottom: 1.6em;
@@ -64,7 +68,19 @@ label{
 .menu-icon {
     display: none;
 }
+.header i{
+    font-size: 1.8rem;
+}
 
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 30px;
+    display: none;
+    z-index: 2;
+   
+  }
 .navigation ul{
     margin: 0;
     padding: 0;
@@ -106,16 +122,14 @@ label{
     align-items: center;
     justify-content: center; 
     flex-direction: column;
-    /* padding-top: 4rem;
-    padding-bottom: 4rem; */
+ 
 }
 .circuito-proyecto{
     display: flex;
     align-items: center;
     justify-content: center; 
     flex-direction: column;
-    /* padding-top: 4rem;
-    padding-bottom: 4rem; */
+  
 }
 
 .componentes-proyecto{
@@ -132,6 +146,24 @@ label{
 }
 
 
+
+.institucion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 1rem; 
+    
+
+} 
+/* .texto-institucion p {
+    padding-bottom: 4rem;
+} */
+.texto-institucion a {
+    color: #2f3640;
+}
+   
+
+
 .participantes-proyecto{
     display: flex;
     flex-wrap: wrap;
@@ -140,6 +172,7 @@ label{
     text-align: left;
     gap: 1rem;
 }
+
 
 
 
@@ -162,12 +195,14 @@ label{
 }
 
 .form-control{
-    border: 1px solid #6b71f275;
+    border: 1px solid #87878c75;
 }
 .form-control:focus{
-    border: 1px solid #6B71F2;
-    box-shadow: 0 0 0 0.25rem rgb(107 113 242 / 25%);;
+    border: 1px solid #87878c75;
+    box-shadow: 0 0 0 0.25rem rgba(121, 121, 123, 0.25);;
 }
+
+
 @media (min-width: 1200px) {
     .formulario{
         padding-left: 15%;
@@ -176,11 +211,10 @@ label{
 }
 
 
-
 /* FOOTER */
 .footer-links{
     background: #2f3640;
-    color: #616161; 
+    color: #e4dada; 
     font-size: 12px; 
     padding: 35px 0; 
 }

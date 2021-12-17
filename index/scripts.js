@@ -31,7 +31,7 @@ function sendMail() {
             subject: 'Formulario Pagina', //email subject
             typeMSG: 'html', //text or html
             message: `
-            -nombre: ${document.getElementById('nombre').value}<br>
+            -nombre y apellido: ${document.getElementById('nombre').value}<br>
             -correo: ${document.getElementById('correo').value}<br>
             -telefono: ${document.getElementById('telefono').value}<br>
             -message: ${document.getElementById('textarea').value}<br>
