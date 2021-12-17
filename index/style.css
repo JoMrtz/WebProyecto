@@ -162,7 +162,13 @@ label{
     color: #2f3640;
 }
    
+@media(max-width:700px){
+    .institucion{
+        display: grid;
+        grid-template-columns: (1,1fr);
+    }
 
+}
 
 .participantes-proyecto{
     display: flex;
@@ -170,7 +176,7 @@ label{
     justify-content: space-around;
     width: 100%;
     text-align: left;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 
@@ -196,6 +202,7 @@ label{
 
 .form-control{
     border: 1px solid #87878c75;
+    background-color: #fff;
 }
 .form-control:focus{
     border: 1px solid #87878c75;
